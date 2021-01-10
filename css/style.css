@@ -6,6 +6,10 @@
     --ternary:#898989;
     --light:#F2F2F2;
     --secondary:#070606;
+    --darkBlue:#151a33;
+    --deep:#2b55cc;
+    --darktxt:#848db3;
+    --dark-blue:#28365f;
 }
 body{
     font-family: 'Poppins',sans-serif;
@@ -189,15 +193,66 @@ section.about .social a img{
 
 
 }
+section.education {
+    padding-top:4rem;
+    padding-bottom: 10rem;
+    background-color: var(--darkBlue);
+}
+section.education img{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--pure);
+}
+section.education .right{
+    padding-left: 4rem;
+}
+
+
+section.education .right .timeline_wrapper{
+    border-left: 2px dotted var(--dark-blue);
+}
+
+
+section.education .right .part1{
+    padding-bottom: 3rem;
+}
+section.education .right h3{
+    margin-bottom:0.3rem;
+    font-size:1.7rem;
+    font-weight: 600;
+    color: var(--deep);
+}
+section.education .right p{
+    padding-left: 1rem;
+    margin-bottom:1rem;
+    color: var(--darktxt);
+}
+
+section.education h1 span{
+    color: var(--primary);
+}
+
+section.education h3{
+    margin-bottom:1rem;
+    font-size:1.6rem;
+    font-weight: 400;
+}
+
+section.educationt p{
+    font-family: 'Lato' , sans-serif;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
 section.contact .input-wrap{
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
 section.contact .input-wrap-2{
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
 
 .section-heading{
     color: var(--secondary);
