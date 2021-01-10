@@ -595,20 +595,18 @@ footer .copyright{
     font-size: 2rem;
     display: flex;
 }
-
-
-@media(max-width:1024px){
+@media(max-width:1366px){
     .container{
         max-width: 1000px;
-        padding:0 10px;
+        padding-right:30px;
+        padding-left: 0px;
         margin:0 auto;
-    
     }
     header #main-nav{
         display: none;
     }
     .hamberger{
-        padding-right: 2rem;
+        padding-right: 4rem;
         display: block;
     }
 
@@ -630,7 +628,7 @@ footer .copyright{
 
     .hero{
         padding-top: 14rem;
-        padding-right: 4rem;
+        padding-right: 9rem;
     }
 
     .about {
@@ -641,7 +639,8 @@ footer .copyright{
     .about .right{
         text-align: center;
         margin-top: 2rem;
-        padding: 0 4rem;
+        padding-left: 0rem;
+        padding-right: 6rem;
     }
 
     .about .left img{
@@ -663,8 +662,8 @@ footer .copyright{
     }
 
     section.services .card-wrapper{
-        padding-left: 4rem;
-        padding-right: 4rem;
+        padding-left: 1rem;
+        padding-right: 5rem;
         grid-template-columns: repeat(2,1fr);
     }
 
@@ -672,6 +671,7 @@ footer .copyright{
         grid-template-columns: repeat(1,1fr);
         margin-left: 6.5rem;
         justify-content: center;
+        margin-left: 3.5rem;
 
     }
     section.work{
@@ -697,9 +697,15 @@ footer .copyright{
     }
 
     section.contact .card-wrapper{
-        margin-left: 1rem;
+        margin-left: 0rem;
         margin-right: 1rem;
+        padding-right: 3rem;
     }
+
+    footer {
+        margin-right: 5rem;
+    }
+    
 
 
 }
@@ -707,6 +713,19 @@ footer .copyright{
 @media (max-width:576px){
     .hero{
         flex-direction: column;
+        padding-top: 6rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .container{
+        padding-right:10px;
+        padding-left: 0px;
+        margin:0 auto;
+    }
+    
+    .hamberger{
+        padding-right: 1rem;
     }
     
     header #main-nav{
@@ -727,10 +746,11 @@ footer .copyright{
     }
     .hero .left img{
         padding-top: -8rem;
-        padding-right: 1rem;
+        padding-right: 2rem;
         padding-bottom: 1rem;
+        padding-left: 0rem;
         height: 20rem;
-        width: 20rem;
+        width: 21rem;
     }
     .about-inner-wrap{
         flex-direction: column;
@@ -759,9 +779,15 @@ footer .copyright{
 
     section.work .card-wrapper{
         grid-template-columns: repeat(1,1fr);
-        margin-left: 0rem;
+        margin-left: 1rem;
+        padding-right: 1rem;
         margin-top: 6rem;
         margin-bottom: 6rem;
+    }
+
+    section.work .container{
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
     }
 
     section.freelancer{
@@ -797,6 +823,24 @@ footer .copyright{
         
     }
 
+    section.contact .container{
+        padding-right: 1rem;
+        padding-left: 3rem;
+    }
+    section.contact{
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+    section.contact .section-heading{
+        padding-left: 0rem;
+        padding-right: 3rem;
+    }
+    section.contact p{
+        padding-left: 0rem;
+        padding-right: 3rem;
+        margin-bottom: 3rem;
+    }
+
     section.contact .card-wrapper{
         grid-template-columns: repeat(1,1fr);
         grid-gap: 0rem;
@@ -815,6 +859,11 @@ footer .copyright{
     footer .footer-socials a{
         margin-right: 1rem;
         margin-left: 1rem;
+    }
+    
+    footer {
+        margin-right: 0rem;
+        padding-right: 1rem;
     }
 
 
